@@ -29,6 +29,9 @@ num_cols = df.select_dtypes(include=np.number).columns.tolist()
 if st.checkbox("View All Data"):
     st.dataframe(df)
 
+if st.checkbox("bro"):
+    st.write('love heals ALL one day or another')
+
 if st.checkbox("Show Some Statistics"):
    
     c1, c2 = st.columns(2)
